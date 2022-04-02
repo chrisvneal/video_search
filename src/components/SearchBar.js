@@ -2,7 +2,7 @@ import React from "react";
 
 class SearchBar extends React.Component {
   render() {
-    return <div>SearchBar</div>;
+    return <div>Search Bar</div>;
   }
 }
 
