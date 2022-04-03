@@ -1,9 +1,10 @@
+import "./VideoItem.css";
 import React from "react";
 
 const VideoItem = ({ video }) => {
   let imageURL = video.snippet.thumbnails.medium.url;
   return (
-    <div className="item">
+    <div className="video-item item">
       <img
         className="ui image"
         src={imageURL}
