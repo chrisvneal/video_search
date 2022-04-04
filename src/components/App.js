@@ -10,6 +10,10 @@ class App extends React.Component {
     selectedVideo: null
   };
 
+  componentDidMount() {
+    this.onTermSubmit("mixing in fl studio");
+  }
+
   onTermSubmit = async (term) => {
     const response = await youtube.get("/search", {
       params: {
