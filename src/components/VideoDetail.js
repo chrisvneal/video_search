@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoDetail = ({ video }) => {
   if (!video) {
-    return <div>No video selected...</div>;
+    return <div>Enter a search term</div>;
   }
 
   let description = video.snippet.description;
