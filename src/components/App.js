@@ -30,10 +30,10 @@ class App extends React.Component {
         <SearchBar onFormSubmit={this.onTermSubmit} />
         <div className="ui grid">
           <div className="ui row">
-            <div class="eleven wide column">
+            <div className="eleven wide column">
               <VideoDetail video={this.state.selectedVideo} />
             </div>
-            <div class="five wide column">
+            <div className="five wide column">
               <VideoList
                 videos={this.state.videos}
                 onVideoSelect={this.onVideoSelect}
